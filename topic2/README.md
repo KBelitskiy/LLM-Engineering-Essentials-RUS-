@@ -1,35 +1,35 @@
-# Topic 2. LLM Orchestration
+# Тема 2. Оркестрация LLM
 
-**The course is under construction, with new materials appearing regularly.**
+**Курс находится в разработке, новые материалы появляются регулярно.**
 
-**Subscribe for updates and make sure you don’t miss anything: [Stay updated](https://academy.nebius.com/llm-engineering-essentials/update/)**
+**Подпишитесь на обновления: [Будьте в курсе](https://academy.nebius.com/llm-engineering-essentials/update/)**.
 
-## Contents
+## Содержание
 
-* **2.1. Structured inputs and outputs (Will be available later)** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.1_structured_inputs_and_outputs.ipynb)
+* **2.1. Структурированные входы и выходы** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.1_structured_inputs_and_outputs.ipynb)
 
-  Structure outputs of an LLM to make parsing and processing easy.
+  Как задавать структуру входов и выходов, чтобы упростить парсинг и последующую обработку.
 
-* **2.2. LLM Orchestration** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.2_llm_workflows.ipynb)
+* **2.2. Оркестрация LLM** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.2_llm_workflows.ipynb)
 
-  Combine calls to LLMs into complex workflows to solve even more challenging tasks.
+  Объединение вызовов LLM в более сложные workflow для решения составных задач.
 
-* **2.3. Intro to LLM Reasoning** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.3_intro_to_llm_reasoning.ipynb)
+* **2.3. Введение в reasoning у LLM** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.3_intro_to_llm_reasoning.ipynb)
 
-  Examine AI reasoning’s strengths and limitations and explore whether LLM "thinking" truly mirrors human cognitive processes.
+  Сильные и слабые стороны reasoning-подходов и границы "мышления" языковых моделей.
 
-* **2.4. Inference-Time Compute** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.4_inference_time_compute.ipynb)
-  
-  Make LLMs more effective with advanced orchestration techniques. Explore how to choose wisely between different approaches — using a larger model or a smaller one with a more sophisticated strategy.
+* **2.4. Inference-time compute** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.4_inference_time_compute.ipynb)
 
-* **2.5. Establishing non-linear reasoning capabilities** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.5_establishing_non_linear_reasoning.ipynb)
+  Как делать LLM-системы эффективнее за счет грамотной оркестрации и выбора стратегии.
 
-  Understand how models like DeepSeek-R1 develop reasoning abilities. Take a closer look at the data collection and training strategies that shape their performance.
-  
-* **2.6. LLM Tools and Agents** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.6_llm_tools_and_agents.ipynb)
+* **2.5. Нелинейное рассуждение** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.5_establishing_non_linear_reasoning.ipynb)
 
-  Learn how LLMs use tools and function calling to extend their capabilities.
+  Как модели вроде DeepSeek-R1 развивают способности к рассуждению: данные, обучение, архитектурные решения.
 
-* **2.7. Agentic Orchestration** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.7_agentic_orchestration.ipynb)
+* **2.6. Инструменты и агенты в LLM** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.6_llm_tools_and_agents.ipynb)
 
-  Advance past manual LLM orchestration and start designing AI-driven workflows.
+  Использование tool calling и function calling для расширения возможностей модели.
+
+* **2.7. Агентная оркестрация** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic2/2.7_agentic_orchestration.ipynb)
+
+  Переход от ручных цепочек к агентным workflow на основе LLM.

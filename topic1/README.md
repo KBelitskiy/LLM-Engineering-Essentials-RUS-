@@ -1,63 +1,59 @@
-# Topic 1. LLM API Basics
+# Тема 1. Основы LLM API
 
-**The course is under construction, with new materials appearing regularly.**
+**Курс находится в разработке, новые материалы появляются регулярно.**
 
-**Subscribe for updates and make sure you don’t miss anything: [Stay updated](https://academy.nebius.com/llm-engineering-essentials/update/)**
+**Подпишитесь на обновления: [Будьте в курсе](https://academy.nebius.com/llm-engineering-essentials/update/)**.
 
-## Contents
+## Содержание
 
-* **1.1. Intro to LLM APIs** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.1_intro_to_llm_apis.ipynb)
+* **1.1. Введение в API LLM** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.1_intro_to_llm_apis.ipynb)
 
-  Experiment with text-to-image and image-to-text generation, send API requests, and analyze responses using OpenAI API and [Nebius AI Studio](https://studio.nebius.ai/), which provides open-source models like Llama, Mistral, DeepSeek, and Qwen. 
-  This section will ensure you can make API calls, handle responses, and integrate LLMs into applications.
+  Поэкспериментируйте с задачами text-to-image и image-to-text, отправкой API-запросов и разбором ответов через OpenAI API и [Nebius AI Studio](https://studio.nebius.ai/) (Llama, Mistral, DeepSeek, Qwen и др.).
 
-* **1.2. Tokenization** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.2_tokenization.ipynb)
+* **1.2. Токенизация** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.2_tokenization.ipynb)
 
-  For LLMs, text is composed of tokens, which can be words, subwords, individual characters, or even byte sequences.
-  In this chapter, you'll learn what tokens are and how tokenization affects the way LLMs process text.
+  Разберитесь, что такое токены и как токенизация влияет на обработку текста в LLM.
 
-* **1.3. Basic prompting guidelines** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.3_basic_prompting_guidelines.ipynb)
+* **1.3. Базовые рекомендации по промптингу** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.3_basic_prompting_guidelines.ipynb)
 
-  In this chapter, we'll share some basic practical hints for prompting LLMs.
+  Практические приемы, которые помогают получать более качественные ответы от LLM.
 
-* **1.4. What can possibly go wrong with an LLM** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.4_what_can_possibly_go_wrong_with_an_llm.ipynb)
+* **1.4. Что может пойти не так при работе с LLM** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.4_what_can_possibly_go_wrong_with_an_llm.ipynb)
 
-  Learn about some of the blights that plague LLM users: hallucinations, bias, mode collapsing, and jailbreaks.
+  Галлюцинации, предвзятость, prompt injection и другие типовые риски.
 
-* **1.5. Choosing an LLM** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.5_how_to_choose_an_llm.ipynb)
+* **1.5. Как выбирать LLM** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.5_how_to_choose_an_llm.ipynb)
 
-  Learn about various cosiderations that you can use to choose LLMs for your projects, including size tiers, benchmarks, reasoning capabilities, etc.
+  Критерии выбора модели: размер, качество, стоимость, latency и reasoning-возможности.
 
-* **1.6. LLM Inference Parameters** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.6_llm_inference_parameters.ipynb)
+* **1.6. Параметры инференса LLM** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.6_llm_inference_parameters.ipynb)
 
-  Understand token probabilities, uncertainty, and the LLM generation process. 
-  Learn how inference parameters influence randomness in responses and how to balance reproducibility and creativity.
+  Как параметры генерации влияют на случайность ответа, креативность и воспроизводимость.
 
+* **1.7. Создание персонажа на базе LLM** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.7_creating_an_llm-powered_character.ipynb)
 
-* **1.7. Creating an LLM-powered Character** [colab link](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.7_creating_an_llm-powered_character.ipynb)
+  Соберите чат-бота-персонажа и попробуйте расширенные механики, включая внутренний "блокнот мыслей".
 
-  Build a chatbot based on a fantasy character and explore advanced features like giving it a scratchpad — a space for its own "thoughts."
+## Часть проекта: развертывание сервиса на базе LLM
 
-## Project part: deploying an LLM-powered service
+Материалы проекта находятся в [репозитории LLMOps Essentials](https://github.com/Nebius-Academy/LLMOps-Essentials). На этом этапе нужна ветка `main` с базовым API-сервисом. К RAG и self-hosted LLM вы перейдете в следующих темах.
 
-The project materials are in the [LLMOps Essentials repo](https://github.com/Nebius-Academy/LLMOps-Essentials). For now, you only need the `main` branch which deploys the simple API-based service (we'll proceed to RAG and open-source LLM deployment in the later topics).
+Полезные видео:
 
-The following videos will help you to understand how the repo and the service that it implements work:
+1. [Проектирование чат-сервиса с LLM: простой вариант](https://youtu.be/pOXA7ZuB-98)
+2. [Проектирование чат-сервиса с LLM: запуск сервиса](https://youtu.be/Ry0nXts6B0o)
+3. [Проектирование чат-сервиса с LLM: продвинутый вариант](https://youtu.be/N6okNbcGjY8)
+4. [Запуск чат-сервиса](https://youtu.be/pPFWefazyAQ)
+5. (Опционально) [Дополнительные темы: развертывание в Kubernetes](https://youtu.be/uVEP4doSGQ4)
 
-1. [Designing a chat service using LLMs: A simple way](https://youtu.be/pOXA7ZuB-98)
-2. [Designing a chat service using LLMs: Running a service](https://youtu.be/Ry0nXts6B0o)
-3. [Designing a chat service using LLMs: An advanced way](https://youtu.be/N6okNbcGjY8)
-4. [Running the chat service](https://youtu.be/pPFWefazyAQ)
-5. (Optional) [Advanced topics: Kubernetes deployment](https://youtu.be/uVEP4doSGQ4) - we prepared this one for those who already know about Kubernetes and want to understand how to deploy the chat service in it
+Инструкция по развертыванию: [DEPLOYMENT_MANUAL.md](https://github.com/Nebius-Academy/LLMOps-Essentials/blob/main/DEPLOYMENT_MANUAL.md).
 
-Please check the [deployment manual](https://github.com/Nebius-Academy/LLMOps-Essentials/blob/main/DEPLOYMENT_MANUAL.md) to learn how to deploy the service on your VM.
+**Задание:**
 
-**A task for you**. To start wrapping your mind around the repo:
+1. Обновите список доступных LLM и добавьте актуальную модель.
+2. Найдите, где хранится история чата, и попробуйте получить ее через запрос из Colab.
+3. Добавьте поддержку блокнота (notebook) для персонажа.
 
-1. Update the range of available LLMs. Add something new and fashionable
-2. Locate where chat history is stored and find out how to get it by querying the service from colab
-3. Try adding scratchpad support
+## Дополнительное чтение
 
-## Additional reading: 
-
-* [**LLM training overview**](https://nebius-academy.github.io/knowledge-base/llm-training-overview/)
+* [**Обзор обучения LLM**](https://nebius-academy.github.io/knowledge-base/llm-training-overview/)

@@ -1,92 +1,88 @@
-# LLM Engineering Essentials course by Nebius Academy
+# Курс LLM Engineering Essentials от Nebius Academy
 
-## 📹 Our event calendar — join Q&A sessions and webinars
+## 📹 Календарь событий
 
-Want to stay updated on future events?
+Хотите не пропускать сессии вопросов и ответов и вебинары?
 
-👉[Subscribe to our calendar](https://qrco.de/nagoocal)
+👉 [Подписаться на календарь](https://qrco.de/nagoocal)
 
-&nbsp;
+## 🎓 О курсе
 
-# 🎓 What is this course about?
+## 📌 Быстрый старт
 
-## 📌 Quick start
+В этом курсе вы получите практический опыт работы с API LLM и open-source моделями: будете писать код, экспериментировать и шаг за шагом соберете собственную платформу для AI-NPC.
 
-Get hands-on with LLM APIs and self-hosted models as you code, experiment, and build your own platform for custom AI-powered NPCs.
+12-недельная программа подготовлена экспертами из индустрии и академической среды для разработчиков и инженеров. В процессе вы получите сопровождение от практикующих специалистов, доступ к регулярным Q&A-сессиям и возможность общаться с другими участниками.
 
-This 12-week course, created by experts from academia and industry, is designed specifically for developers and engineers. You’ll have a chance to get guidance from experienced pros, join regular Q&A sessions to stay on track, and connect with peers along the way.
+Материалы по темам находятся в папках `./topic*` (в каждой теме есть свой `README.md`).
 
-Materials for each topic can be found in the ./topic* folders. See README.md for further details and instructions.
+Если нашли ошибку, техническую проблему или хотите предложить улучшение, создайте issue в репозитории.
 
-Any technical issues, ideas, bugs in course materials, contribution ideas - add an issue.
+## 📖 Дорожная карта
 
-## 📖 Course roadmap
+Изучайте современные подходы к работе с LLM и сразу применяйте их на практике.
 
-Study advanced concepts and apply your new knowledge right away.
+### [Тема 1️⃣ Основы LLM API](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic1)
 
-Join live sessions to connect with peers and course experts, reinforcing your learning.
+Работа с текстовыми и мультимодальными LLM API, базовый prompt engineering, типовые проблемы LLM, управление креативностью и воспроизводимостью.
 
-### [Topic 1️⃣ LLM API Basics](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic1)
+**Проект**: создание чат-бота и его развертывание в облаке.
 
-Basics of LLM and Multimodal LLM API usage and prompt strategies, typical problems arising with LLMs, creativity-vs-reproducibility control.
+### [Тема 2️⃣ Оркестрация и workflow с LLM](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic2)
 
-**Project**: Creating a chatbot and deploying it in a cloud.
+Шаблоны и рабочие процессы LLM: от простых цепочек до агентных систем. Введение в reasoning-подходы.
 
-### [Topic 2️⃣ LLM Workflows](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic2)
+**Проект**: работа с памятью, планированием и автоматизированной оценкой.
 
-LLM Workflows and beyond: from Chaining to AI Agents. LLM Reasoning.
+### [Тема 3️⃣ Контекст и RAG](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic3)
 
-**Project**: Planning and memory summarization; Automating evaluation.
-	
-### [Topic 3️⃣ Context](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic3)
+RAG в продакшене: векторные хранилища, базы данных, качество retrieval и оценка RAG-систем.
 
-RAG and its technicalities; vector stores, databases in production. RAG evaluation.
+**Проект**: добавление RAG в сервис NPC Factory.
 
-**Project**: Adding RAG to the NPC Factory service.
+### [Тема 4️⃣ Self-hosted LLM](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic4)
 
-### [Topic 4️⃣ Self-Deployed LLMs](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic4)
-	
-Working with open source LLMs and practical LLM inference in production. Computational and memory bottlenecks of LLM inference.
+Работа с open-source LLM и практический инференс в продакшене. Вычислительные и memory bottleneck'и при генерации.
 
-**Project**: Deploying a chat service based on a self-served LLM. Serving text encoders and rerankers. Making a cost-to-value choice between API and self-served LLMs.
-	
-### [Topic 5️⃣ Optimization and Monitoring](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic5)
+**Проект**: развертывание чат-сервиса на self-hosted LLM, использование энкодеров и реранкеров, выбор между API и self-hosted подходом.
 
-Optimizing LLM inference, quantization and beyond. Production monitoring and observability.
-	
-**Project**: Optimizing open source LLM inference. Establishing monitoring with Evidently AI, Prometeus and Grafana.
-	
-### [Topic 6️⃣ Fine-Tuning](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic6)
+### [Тема 5️⃣ Оптимизация и мониторинг](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic5)
 
-Fine-tuning of LLMs and embeddings. Parameter-Efficient Fine-Tuning and LoRA. RLHF and DPO
-	
-**Project**: Making your characters even more alive through fine-tuning
+Оптимизация инференса LLM, квантование, мониторинг и наблюдаемость в продакшене.
 
-## 🏗️ NPC Factory Project
+**Проект**: ускорение open-source LLM и настройка мониторинга через Evidently AI, Prometheus и Grafana.
 
-During the course, you'll build a platform that serves intelligent, believable, reactive, and autonomous NPCs — non-player characters at the heart of immersive games, driving engaging interactions and making worlds feel rich and dynamic.
+### [Тема 6️⃣ Тонкая настройка](https://github.com/Nebius-Academy/LLM-Engineering-Essentials/tree/main/topic6)
 
-- Deploy models on real servers and integrate them into game environments.
-- Implement agentic capabilities, enabling NPCs to set goals and adapt dynamically.
-- Build scalable APIs to support complex game interactions.
-- Optimize performance, monitor behavior, and fine-tune models for smooth, responsive gameplay.
+Fine-tuning LLM и эмбеддингов, parameter-efficient подходы (включая LoRA), RLHF и DPO.
 
-## 💬 Join the community
+**Проект**: сделать поведение персонажей более правдоподобным за счет дообучения.
 
-Connect with experts, engage in discussions, ask questions, and share insights, experiences, and feedback with fellow learners [on Discord](https://discord.com/invite/WJ2DUQRz4m). Stay in the loop — live session announcements will be posted there, too!
+## 🏗️ Проект NPC Factory
 
-For updates, you can also subscribe to our newsletter.
+В ходе курса вы создадите платформу для умных, правдоподобных, реактивных и автономных NPC (неигровых персонажей), которые делают игровые миры живыми и динамичными.
 
-## 👨‍🏫 Meet our team
+- Развернете модели на реальных серверах и интегрируете их в игровую среду.
+- Добавите агентные возможности, чтобы NPC могли ставить цели и адаптироваться к ситуации.
+- Построите масштабируемые API для сложных игровых взаимодействий.
+- Оптимизируете производительность, настроите мониторинг и улучшите качество поведения NPC.
 
-Led by AI expert **Stanislav Fedotov**, this course was created by a team of AI practitioners dedicated to making AI education accessible and keeping professionals ahead in the field:
+## 💬 Сообщество
+
+Общайтесь с экспертами, задавайте вопросы и делитесь опытом с другими участниками [в Discord](https://discord.com/invite/WJ2DUQRz4m). Там же публикуются анонсы live-сессий.
+
+Чтобы получать обновления, подпишитесь на нашу рассылку.
+
+## 👨‍🏫 Команда курса
+
+Курс подготовлен под руководством эксперта в области AI **Станислава Федотова** совместно с командой практиков:
 
 **Alexey Bukhtiyarov**
 
-**Nikita Pavlichenko**
+**Никита Павличенко**
 
-**Sergei Petrov**
+**Сергей Петров**
 
 **Sergei Skvortsov**
 
-**Alex Umnov**
+**Алекс Умнов**
