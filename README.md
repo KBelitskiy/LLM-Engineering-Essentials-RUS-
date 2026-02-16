@@ -1,4 +1,4 @@
-# Курс LLM Engineering Essentials от Nebius Academy
+# Курс LLM Engineering Essentials от Nebius Academy (RUS)
 
 ## 📹 Календарь событий
 
