@@ -8,7 +8,7 @@
 
 * **1.1. Введение в API LLM** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.1_intro_to_llm_apis.ipynb)
 
-  Поэкспериментируйте с задачами text-to-image и image-to-text, отправкой API-запросов и разбором ответов через OpenAI API и [Nebius AI Studio](https://studio.nebius.ai/) (Llama, Mistral, DeepSeek, Qwen и др.).
+  Поэкспериментируйте с задачами text-to-image и image-to-text, отправкой API-запросов и разбором ответов через любой OpenAPI-совместимый провайдер (OpenAI, Together, Groq и др.).
 
 * **1.2. Токенизация** [ссылка на Colab](https://colab.research.google.com/github/Nebius-Academy/LLM-Engineering-Essentials/blob/main/topic1/1.2_tokenization.ipynb)
 
